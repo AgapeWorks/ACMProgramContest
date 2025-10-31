@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judges Section</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="center-wrapper">
+        <section class="judges-section">
+            <div class="judges-container">
+
+                <div class="judge">
+                    <img src="images/img01.png" alt="Kamaldeen Kehind">
+                    <div class="judge-info">
+                        <h3>Kamaldeen Kehind</h3>
+                        <p><em>Co-Founder & Operations Lead</em></p>
+                    </div>
+                </div>
+
+                <div class="judge">
+                    <img src="images/Sirimage.jpg" alt="Ibraheem Zulkilfi">
+                    <div class="judge-info">
+                        <h3>Radhakrishnan Arikrishna Perumal </h3>
+                        <p><em>Tech Lead & Co-organizer</em></p>
+                    </div>
+                </div>
+
+                <div class="judge">
+                    <img src="images/img02.png" alt="Ahmed Olanrewaju">
+                    <div class="judge-info">
+                        <h3>Ahmed Olanrewaju</h3>
+                        <p><em>Co-organizer/Technical Lead, GDGIlorin</em></p>
+                    </div>
+                </div>
+
+                <div class="judge">
+                    <img src="images/img03.png" alt="Zumma Yahaya">
+                    <div class="judge-info">
+                        <h3>Zumma Yahaya</h3>
+                        <p><em>Director of Programs at Ilorin Innovation Hub</em></p>
+                    </div>
+                </div>
+
+                <div class="judge">
+                    <img src="images/img04.jpg" alt="Zumma Yahaya">
+                    <div class="judge-info">
+                        <h3>Ms. Anusha Nerella</h3>
+                        <p><em>Senior Software Engineer </em></p>
+                    </div>
+                </div>
+                <div class="judge">
+                    <img src="images/img05.png" alt="Zumma Yahaya">
+                    <div class="judge-info">
+                        <h3>Dr. Anil Kumar Tripathi</h3>
+                        <p><em>Indian Institute of Technology (BHU) Varanasi</em></p>
+                    </div>
+                </div>
+                <div class="judge">
+                    <img src="images/img06.jpg" alt="Zumma Yahaya">
+                    <div class="judge-info">
+                        <h3>Dr.  Krutthika Hirebasur Krishnappa</h3>
+                        <p><em>Assistant Professor, Southern University and A&M College</em></p>
+                    </div>
+                </div>
+                <div class="judge">
+                    <img src="images/img07.jpg" alt="Zumma Yahaya">
+                    <div class="judge-info">
+                        <h3>Dr. Hoshang Kolivand</h3>
+                        <p><em>School of Computer Science and Maths, Liverpool John Moores University, Liverpool, UK    </em></p>
+                    </div>
+                </div>
+                <div class="judge">
+                    <img src="images/img08.png" alt="Zumma Yahaya">
+                    <div class="judge-info">
+                        <h3>Prof. Parag Kulkarni</h3>
+                        <p><em>Tokyo International University, Japan</em></p>
+                    </div>
+                </div>
+                <div class="judge">
+                    <img src="images/img09.jpg" alt="Zumma Yahaya">
+                    <div class="judge-info">
+                        <h3>Prof. Brij Bhooshan Gupta</h3>
+                        <p><em>Asia University, Taiwan</em></p>
+                    </div>
+                </div>
+                <div class="judge">
+                    <img src="images/img10.jpg" alt="Zumma Yahaya">
+                    <div class="judge-info">
+                        <h3>Dr. Danilo Pelusi</h3>
+                        <p><em>University of Teramo, Italy</em></p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
+<style>
+    /* General body style */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #fff;
+        color: #222;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding: 100px 0px 0px 100px;
+    }
+
+    /* Center wrapper for vertical and horizontal alignment */
+    .center-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+
+    /* Section */
+    .judges-section {
+        background: #fff;
+        padding: 30px 50px;
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Title */
+    .section-title {
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    /* Grid layout */
+    .judges-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 80px;
+    }
+
+    /* Each judge */
+    .judge {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .judge img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .judge-info h3 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .judge-info p {
+        margin: 4px 0 0;
+        font-size: 14px;
+        color: #444;
+        font-style: italic;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .judges-container {
+            grid-template-columns: 1fr;
+        }
+
+        .judges-section {
+            padding: 20px;
+        }
+    }
+</style>
